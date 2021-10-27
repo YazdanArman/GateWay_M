@@ -157,10 +157,10 @@ int resault;
 
 int this_node_virtual = 13;
 
-bool config_Serial_debug = true;
-bool modbusTCP_Serial_debug = true;
-bool modbusRTU_Serial_debug = true;
-bool onBoard_sensor_data_Serial_debug = true;
+bool config_Serial_debug = false;
+bool modbusTCP_Serial_debug = false;
+bool modbusRTU_Serial_debug = false;
+bool onBoard_sensor_data_Serial_debug = false;
 
 bool config_mode_enb = false;
 
