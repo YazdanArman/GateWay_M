@@ -17,6 +17,6 @@ void pin_configuration() {
 
   pinMode(config_mode_enb_pin, INPUT_PULLUP);
 
-  pinMode(on_board_led, OUTPUT);
+  //  pinMode(on_board_led, OUTPUT);
 
 }
