@@ -148,8 +148,8 @@ uint8_t ip_first[]      = {192, 168, 1, 238};
   // 938 input 1, 2, 3, 4 send edge and input 5 sends edge and on_timer
 */
 
-unsigned long now;
-unsigned long last_sent;
+unsigned long now = 0;
+unsigned long last_sent = 0;
 const unsigned long interval = 100;
 bool Heart_Beat_state = 0;
 
